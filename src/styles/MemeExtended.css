@@ -1,14 +1,26 @@
-.single-meme{
+.single-meme {
     text-align: center;
     display: grid;
     align-items: center;
-    justify-content: center;
-    grid-template-columns: 100px auto 100px;
+    justify-content: space-between;
+    height: calc(100vh - 60px);
+    margin: 20px;
+    grid-template-columns: 80px auto 80px;
 }
 
-.button-active{
-    margin: 60px;
+.button-active {
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 50px;
+    background-color: grey;
+    min-width: 50px;
+    min-height: 50px;
+    border-radius: 30px;
+    transition: all .02s ease-in-out;
+    display: inline-block;
+}
+
+.button-active:hover{
+    transform: scale(1.2);
+    background-color: black;
 }
