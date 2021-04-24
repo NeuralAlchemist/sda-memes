@@ -1,3 +1,9 @@
 .MemeCard img{
-    padding-bottom: 10px;
+    transition: all .45s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.50) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 15px;
+}
+
+.MemeCard img:hover{
+    transform: scale(1.04);
 }
