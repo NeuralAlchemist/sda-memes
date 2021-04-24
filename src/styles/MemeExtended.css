@@ -1,0 +1,14 @@
+.single-meme{
+    text-align: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 100px auto 100px;
+}
+
+.button-active{
+    margin: 60px;
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+}
