@@ -16,13 +16,17 @@ export default function MemeExtended({ match }) {
     const imageActual = imageObject.default;
     return (
         <div className="single-meme">
-            <Link to={`${prevMeme.imageName}`} className="button-active">
-                &#8249;
-            </Link>
+            <div>
+                <Link to={`${prevMeme.imageName}`} className="button-active">
+                    &#8249;
+                </Link>
+            </div>
             <img src={imageActual} alt="" />
-            <Link to={`${nextMeme.imageName}`} className="button-active">
-                &#8250;
-            </Link>
+            <div>
+                <Link to={`${nextMeme.imageName}`} className="button-active">
+                    &#8250;
+                </Link>
+            </div>
         </div>
     );
 }
