@@ -7,3 +7,9 @@
 .MemeCard img:hover{
     transform: scale(1.04);
 }
+
+@media (max-width:750px){
+    .MemeCard img:hover{
+        transform: scale(1.0);
+    }
+}

@@ -14,16 +14,18 @@ export default function MemeExtended({ match }) {
     const nextMeme = Information[nextId];
     const imageObject = require(`../images/${Information[memeIndex].imageName}`);
     const imageActual = imageObject.default;
+
+    
     return (
         <div className="single-meme">
             <div>
-                <Link to={`${prevMeme.imageName}`} className="button-active">
+                <Link to={`${prevMeme.imageName}`} id="button" className="button-active">
                     &#8249;
                 </Link>
             </div>
             <img src={imageActual} alt="" />
             <div>
-                <Link to={`${nextMeme.imageName}`} className="button-active">
+                <Link to={`${nextMeme.imageName}`} id="button" className="button-active">
                     &#8250;
                 </Link>
             </div>

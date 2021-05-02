@@ -9,7 +9,7 @@
 .header-container{
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    margin: 0 20px 20px 20px;
 }
 
 .home{
@@ -20,11 +20,34 @@
     padding: 5px;
 }
 
+.home:active{
+    background-color: black;
+}
+
 .home:hover{
     background-color: black;
 }
 
 .link-container{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+@media(max-width:700px){
+    .link-container{
+        justify-content:center;
+    }
+}
+
+@media (max-width: 500px){
+    .logo{
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 350px){
+    .logo{
+        font-size: 40px;
+    }
 }

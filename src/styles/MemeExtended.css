@@ -24,3 +24,9 @@
     transform: scale(1.2);
     background-color: black;
 }
+
+@media (max-width:750px){
+    .button-active{
+        display: none;
+    }
+}
