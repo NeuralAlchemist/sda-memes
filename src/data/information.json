@@ -28,7 +28,7 @@
 },
 {
     "id":8,
-    "imageName":"it continues.jpg"
+    "imageName":"it-continues.jpg"
 },
 {
     "id": 9,
@@ -40,7 +40,7 @@
 },
 {
     "id":11,
-    "imageName":"mid week suprise.jpg"
+    "imageName":"midweek-suprise.jpg"
 },
 {
     "id":12,
@@ -48,19 +48,19 @@
 },
 {
     "id":13,
-    "imageName":"running on empty.jpg"
+    "imageName":"running-on-empty.jpg"
 },
 {
     "id":14,
-    "imageName":"take a break.jpg"
+    "imageName":"take-a-break.jpg"
 },
 {
     "id":15,
-    "imageName":"that one method.jpg"
+    "imageName":"that-one-method.jpg"
 },
 {
     "id":16,
-    "imageName":"week 4 se end.jpg"
+    "imageName":"week4-se-end.jpg"
 },
 {
     "id":17,
@@ -68,5 +68,5 @@
 },
 {
     "id":18,
-    "imageName":"dual monitor.jpg"
+    "imageName":"dual-monitor.jpg"
 }]
