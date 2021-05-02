@@ -1,0 +1,20 @@
+.swiper-wrapper{
+    align-items: center;
+    width: fit-content;
+}
+
+.swiper-slide{
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+}
+
+.swiper-button-prev,
+.swiper-button-next{
+    color: rgba(0,0,0,0.5);
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover{
+    color:black;
+}
