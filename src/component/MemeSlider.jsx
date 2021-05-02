@@ -1,14 +1,15 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Navigation, Pagination, Scrollbar } from "swiper";
+import SwiperCore, { History, Mousewheel, Navigation, Pagination, Scrollbar } from "swiper";
 import "swiper/swiper-bundle.css";
 import "../styles/memeSlider.css";
 
 import information from "../data/information.json";
-SwiperCore.use([Navigation, Pagination, Scrollbar]);
+SwiperCore.use([Navigation, Pagination, Scrollbar, Mousewheel, History]);
 
 export default function MemeSlider() {
     const slides = information.map((item) => 
-    <SwiperSlide key={`slide-${item.id}`}>
+    <SwiperSlide key={`slide-${item.id}`} data-history={item.imageName.split(".")[0]}>
+        {console.log(item.imageName.split(".")[0])}
         <img src={require(`../images/${item.imageName}`).default} alt=""/>
     </SwiperSlide>)
 
@@ -23,6 +24,10 @@ export default function MemeSlider() {
                     dynamicBullets:true}}
                 mousewheel={{
                     invert:true
+                }}
+                loop={true}
+                history={{
+                    replaceState:true
                 }}>
                 {slides}
             </Swiper>
