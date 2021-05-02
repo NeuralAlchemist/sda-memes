@@ -7,7 +7,7 @@ export default function MemeCard({data}) {
     const imageActual = imageObject.default;
     return (
         <article className="MemeCard">
-            <Link to={`meme/${data.imageName}`}>
+            <Link to={`slider/${data.imageName.split(".")[0]}`}>
                 <img src={imageActual}></img>
             </Link>
         </article>
