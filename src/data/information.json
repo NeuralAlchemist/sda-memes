@@ -1,72 +1,132 @@
 [{
     "id":1,
-    "imageName":"a-new-era.jpg"
+    "imageName":"a-new-era.jpg",
+    "description": "Dropped this on the first day of Group Project. It was so surreal that Károly and Eduardo just told us to relax before the theme release. It is the deep breath before the plunge!",
+    "tips": "This free day is real. Use it, enjoy it and just plan on working hours with the team."
 },
 {
     "id":2,
-    "imageName":"first-heartattack.jpg"
+    "imageName":"first-heartattack.jpg",
+    "description": "Halfway through the Individual Project (IP) when Git was still new and I was trying out the cool new world of branches.",
+    "tips": "Check the branch young padwan."
 },
 {
     "id": 3,
-    "imageName": "birthday.jpg"
+    "imageName": "birthday.jpg",
+    "description": "Whipped up something quick for Marcela's birthday! Became useful a second time as well when it was Janko's time. ",
+    "tips": "SDA is not just work, it is so much more about connecting!"
 },
 {
     "id": 4,
-    "imageName": "coffee.jpg"
+    "imageName": "coffee.jpg",
+    "description": "The result of me trying to pander to the coffee addicts of SDA at the end of Software Engineering (SE) module",
+    "tips": "I worry about the most legal psychoactive drug and its effects. Drink responsibly!"
 },
 {
     "id": 5,
-    "imageName": "first-week-sda-finish.jpg"
+    "imageName": "first-week-sda-finish.jpg",
+    "description": "My first meme for SDA and it opened up a new skill that perhaps will only awaken in times of dire need for laughter (and when I am free).",
+    "tips":"Programming Foundation's first week could be a breeze if you did the pre-study well."
 },
 {
     "id":6,
-    "imageName":"IP-ending.jpg"
+    "imageName":"IP-ending.jpg",
+    "description": "Made this in the final days of the Individual Project (IP). I just didn't have the time to implement all the features nor test everything. It was a tough decision, but personally I'm a big fan of leaving the day of deadline stress-free.",
+    "tips": "Read this meme again."
 },
 {
     "id":7,
-    "imageName":"IP-reflection.png"
+    "imageName":"IP-reflection.png",
+    "description": "After a full work week of juggling lectures, meetings and case study work during the official hours and Individual Project (IP) during the evenings one still realized on a friday afternoon that the weekend HAD to be given up for working on the IP.",
+    "tips": "Work that weekend and go out for walks on breaks."
 },
 {
     "id":8,
-    "imageName":"it-continues.jpg"
+    "imageName":"it-continues.jpg",
+    "description": "All the diagrams, test cases, spreadsheets of requirements, re-doing work, internally screaming about non collaborating mates can finally stop. The case study PDF will stay burned in my head though.",
+    "tips": "You deserve a rest, take it."
 },
 {
     "id": 9,
-    "imageName": "its-monday.jpg"
+    "imageName": "its-monday.jpg",
+    "description": "Typical monday motivation",
+    "tips": "Check in with your mates!"
 },
 {
     "id": 10,
-    "imageName": "meme-se-week-4.jpg"
+    "imageName": "meme-se-week-4.jpg",
+    "description": "Most of first few days of case study (cue Eduardo's voice) in the Software Engineering (SE) module were just chaos. So thankful for all the wisdom dropped by Eduardo at that point, even though it meant going back to step one.",
+    "tips": "Have talks with Eduardo and listen to him!"
 },
 {
     "id":11,
-    "imageName":"midweek-suprise.jpg"
+    "imageName":"midweek-suprise.jpg",
+    "description": "When in the last week of PID module a whole load of JavaScript codelabs were opened up and it was the last week leading to the Individual Project (IP). Very stressful time, but zoom calls with your gang made things MUCH better.",
+    "tips": "Work parallely on different tasks and gather intelligence. This is racing against the clock, ain't nobody got time to single thread this computation."
 },
 {
     "id":12,
-    "imageName":"mondays-be-like.jpg"
+    "imageName":"mondays-be-like.jpg",
+    "description": "Monday motivation comes in form of cute chicks.",
+    "tips": "When motivation is a Monday need."
 },
 {
     "id":13,
-    "imageName":"running-on-empty.jpg"
+    "imageName":"running-on-empty.jpg",
+    "description": "The first time my sorting algorithm ran until it was out of memory.",
+    "tips": "Remember to set your boolean variable and to check for the correct condition!"
 },
 {
     "id":14,
-    "imageName":"take-a-break.jpg"
+    "imageName":"take-a-break.jpg",
+    "description": "Some fridays you are just done with work.",
+    "tips": "After a week of great work, just take that rest!"
 },
 {
     "id":15,
-    "imageName":"that-one-method.jpg"
+    "imageName":"that-one-method.jpg",
+    "description": "Made during the Individual Project when most of my tests were focused on this one particular class.",
+    "tips": "I'm just starting out I can't help with this one!"
 },
 {
     "id":16,
-    "imageName":"week4-se-end.jpg"
+    "imageName":"week4-se-end.jpg",
+    "description": "It's just managerial stuff? right? I only need to work on the weekdays! Right?! How wrong we were..",
+    "tips": "It sounds horrible, but yeah, do the work even over weekend."
 },
 {
     "id":17,
-    "imageName":"week3-end.jpg"
+    "imageName":"week3-end.jpg",
+    "description": "At last in the end of Programming Foundations there came whispers of a module, Software Engineering (SE) it was called.",
+    "tips": "Waste no time is worrying and wondering. Pay attention to the workshops and you will be fine"
 },
 {
     "id":18,
-    "imageName":"dual-monitor.jpg"
+    "imageName":"dual-monitor.jpg",
+    "description": "When mac just forces you to figure out the perfect combination of connectors and dongles between your laptop and external monitors every.single.time.on.power-up",
+    "tips": "Restarting the system everytime one of my external monitors failed worked for me. Also check that there isn't too many connectors between your laptop and the external screen!"
+},
+{
+    "id": 19,
+    "imageName": "first-weekend.jpg",
+    "description": "relevant",
+    "tips": "Restarting the system everytime one of my external monitors failed worked for me. Also check that there isn't too many connectors!"
+},
+{
+    "id": 20,
+    "imageName": "making-memes.jpg",
+    "description": "relevant",
+    "tips": "Restarting the system everytime one of my external monitors failed worked for me. Also check that there isn't too many connectors!"
+},
+{
+    "id": 21,
+    "imageName": "ta-power.jpg",
+    "description": "relevant",
+    "tips": "Restarting the system everytime one of my external monitors failed worked for me. Also check that there isn't too many connectors!"
+},
+{
+    "id": 22,
+    "imageName": "the-last-day.jpg",
+    "description": "relevant",
+    "tips": "Restarting the system everytime one of my external monitors failed worked for me. Also check that there isn't too many connectors between your!"
 }]
