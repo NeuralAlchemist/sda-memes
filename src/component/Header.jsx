@@ -8,7 +8,7 @@ export default function Header() {
             <Link to="/" className="logo">
                 SDA MEMES
             </Link>
-            <Link to="/" className="home">
+            <Link to="/about" className="home">
                 About
             </Link>
         </div>
