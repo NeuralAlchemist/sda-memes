@@ -9,7 +9,6 @@
 }
 
 .header-container{
-    font-family: 'Impact';
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -21,15 +20,13 @@
     color: black;
     margin: 0 10px;
     padding: 5px;
-    border-radius: 15%;
+    border: 5px solid transparent;
+    box-sizing: border-box;
 }
 
-.home:active{
-    background-color: black;
-}
 
 .home:hover{
-    background-color: black;
+    border-color:  black;
 }
 
 
