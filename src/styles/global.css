@@ -1,6 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald|Montserrat);
+
 body{
     margin: 5px;
     background-color: ivory;
+    font-family: 'Impact',"Oswald","Montserrat";
 }
 
 a{
