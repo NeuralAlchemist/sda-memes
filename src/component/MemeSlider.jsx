@@ -7,11 +7,20 @@ import information from "../data/information.json";
 SwiperCore.use([Navigation, Pagination, Scrollbar, Mousewheel, History]);
 
 export default function MemeSlider() {
-    const slides = information.map((item) => 
-    <SwiperSlide key={`slide-${item.id}`} data-history={item.imageName.split(".")[0]}>
-        {console.log(item.imageName.split(".")[0])}
-        <img src={require(`../images/${item.imageName}`).default} alt=""/>
-    </SwiperSlide>)
+    const slides = information.map((item) => (
+        <SwiperSlide
+            key={`slide-${item.id}`}
+            data-history={item.imageName.split(".")[0]}
+        >
+            <div className="image-text-container">
+                <img
+                    src={require(`../images/${item.imageName}`).default}
+                    alt=""
+                />
+                <p className="meme-description">{item.description}</p>
+            </div>
+        </SwiperSlide>
+    ));
 
     return (
         <div>
