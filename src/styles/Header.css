@@ -33,6 +33,7 @@
 @media (max-width: 500px){
     .logo{
         font-size: 50px;
+        -webkit-text-stroke: 1px black;
     }
 }
 
