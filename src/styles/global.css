@@ -1,12 +1,30 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald|Montserrat);
 
-body{
-    margin: 5px;
-    background-color: ivory;
-    font-family: 'Impact',"Oswald","Montserrat";
+body {
+  margin: 5px;
+  background-color: ivory;
+  font-family: "Impact", "Oswald", "Montserrat";
 }
 
-a{
-    text-decoration: none;
-    color: black;
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.about {
+  font-family: "Montserrat", "Oswald", "Impact";
+  margin: auto;
+  max-width: 500px;
+  height: 100%;
+  margin-top: 40px;
+}
+
+.message {
+  display: flex;
+  align-items: flex-start;
+}
+
+.signature {
+  display: flex;
+  justify-content: flex-end;
 }
